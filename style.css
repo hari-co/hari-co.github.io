@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+
+.title {
+    color: white;
+    font-size: 5rem;
+    font-family: "Space Mono", monospace;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.center {
+    padding: 20px;
+    margin: auto;
+    display: table;
+}
+
+.card {
+    color: white;
+    font-size: 20px;
+    font-family: "Space Mono", monospace;
+    margin: auto;
+    background: radial-gradient(
+        rgba(255, 255, 255, 0.2) 8%,
+        transparent 8%
+    );
+    background-position: 0%, 0%;
+    background-size: 4vmin 4vmin;
+    width: 500px;
+    padding: 25px;
+    border: 3px solid #606060;
+    border-radius: 20px;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.image {
+    height: auto;
+    width: auto;
+    display: table-cell;
+    padding: 60px;
+}
